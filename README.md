@@ -8,27 +8,18 @@
     
     <title></title>
     <style> 
-      @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-
+     @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
       body { 
-              /*Largura da página*/
-              
-              min-height: 100vh;
-              background-color: #168AAD;
+        /*Largura da página*/
+        min-height: 100vh;
+        background-color: #168AAD;
               
       }
       
-      #borda {
-        margin: -0px;
-        border: none;
-        height: 150px;
-        width: 95%;
-        margin: 10px;
-        background: url(eu7.jpg);
-        background-size: 400px 200px;
-        background-repeat: no-repeat;
-        border-radius: 15px;
+      img {
+        width: 100%;
+        box-shadow: 5px 5px 5px #2a2a2a;
       }
       
       #borda2 {
@@ -40,6 +31,7 @@
         background: url(con.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
+        box-shadow: 5px 5px 5px #2a2a2a;
         
       }
       
@@ -52,6 +44,7 @@
         background: url(tarot.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
+        box-shadow: 5px 5px 5px #2a2a2a;
         
       }
       
@@ -64,6 +57,7 @@
         background: url(net.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
+        box-shadow: 5px 5px 5px #2a2a2a;
         
       }
       
@@ -76,7 +70,7 @@
         background: url(cruz.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
-        
+        box-shadow: 5px 5px 5px #2a2a2a;
       }
       
       #borda6 {
@@ -88,7 +82,7 @@
         background: url(si.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
-        
+        box-shadow: 5px 5px 5px #2a2a2a;  
       }
       
       #borda7 {
@@ -100,7 +94,7 @@
         background: url(esc.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
-        
+        box-shadow: 5px 5px 5px #2a2a2a;
       }
       
       
@@ -170,14 +164,18 @@
             
             h1 {
               color: #fff;
-              font: 400 30px/1.6 "Source Sans Pro",sans-serif;
+              font-family: 'Gloock', serif;
+              letter-spacing: 3px;
+              font-size: 21px;
               text-align: center;
             }
      
             p {
               color: #fff;
               text-align: center;
-              font: 400 19px/1.6 "Source Sans Pro",sans-serif;
+              font-family: 'Gloock', serif;  
+              letter-spacing: 3px;
+              font-size: 18px;
             }
      
             #btn-1, #btn-2 , #btn-3 , #btn-4, #btn-5, #btn-6, #btn-7{
@@ -189,15 +187,18 @@
               margin-right: 10px;
               border-radius: 10px;
               outline: none;
+              box-shadow: 5px 5px 5px #2a2a2a;
             }
             
             .area p {
               margin: 15px;
-              font: 400 20px/1.6 "Source Sans Pro",sans-serif;
+              font-family: 'Gloock', serif;
+              letter-spacing: 3px;
+              font-size: 21px;
             }
 
             .area {
-             border: 1px solid #fff ;
+             box-shadow: 5px 5px 5px #2a2a2a;
              display: block;
              margin: 10px;
              border-radius: 10px;
@@ -208,51 +209,49 @@
            }
            
            a { /*Links menu*/
-            color: white;
-            font: 370 20px/1.6 "Source Sans Pro",sans-serif;
-            text-align: center;
+             color: white;
+             font-family: 'Gloock', serif;
+             letter-spacing: 3px;
+             font-size: 21px;
+             text-align: center;
           }
         
           a:hover { /*cor ao tocar nos links*/
-           background:rgba(0, 0, 0, .09);
-           width: 20px;
+             background:rgba(0, 0, 0, .09);
+             width: 20px;
           }
     
           i {
-            margin-right: 10px;
+             margin-right: 10px;
           }
      
-          .swiffy-slider {
-            height: 150px;
-            width: 150px;
-            margin: 40px;
-          }
       
           mark {
-            background: radial-gradient(circle at 75.57% 35.24%, #76C893 0, #1d8eda 0%, #52B69A 100%);
-            color: white;
-            border-radius: 15px;
+             background: radial-gradient(circle at 75.57% 35.24%, #76C893 0, #1d8eda 0%, #52B69A 100%);
+             color: white;
+             border-radius: 15px;
           }
       
           .roda-pe { 
-              text-decoration: none; 
-              color: white; 
-              font-size: 18px; 
-              cursor: pointer; 
-              padding: 5px 10px; 
-              text-align: center; 
-              font-family: "Source Sans Pro",sans-serif;
-              display: block;
+             text-decoration: none; 
+             width: 90%;
+             margin: 10px;
+             color: white;
+             background-color: #76C893;
+             border-radius: 15px;
+             font-size: 15px; 
+             cursor: pointer; 
+             padding: 5px 10px; 
+             text-align: center; 
+             font-family: 'Gloock', serif;
+             display: block;
             }
     </style>
     <body>
-    <div id="borda">
-    </div>
-    
+    <img src="world.png">
     <hr>
     <h1>Vitor Oliveira - Blog Pessoal</h1>
     <hr>
-    
     <!-- Parágrafos-->
      <input type="checkbox" id="btn-a">
           <button id="btn-1">
@@ -377,7 +376,7 @@
           <hr>
           <br>
           <footer class="roda-pe">
-                <p>Vitor Oliveira © 2023 - GitHub Pages</p>
+                <p>Vitor Oliveira © 2023 - GitHub Pages Última Atualização Da Página Em 22/fev/2023</p>
           </footer>
     </body>
 </html>
