@@ -1,0 +1,236 @@
+            @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+      body { 
+              /*Largura da página*/
+              
+              min-height: 100vh;
+              background-color: #168AAD;
+              
+      }
+      
+      #borda {
+        margin: -0px;
+        border: none;
+        height: 150px;
+        width: 95%;
+        margin: 10px;
+        background: url(eu7.jpg);
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+      }
+      
+      #borda2 {
+        border: none;
+        height: 150px;
+        width: 95%;
+        margin: 10px;
+        border-radius: 10px;
+        background: url(con.jpg);
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
+        
+      }
+      
+      #borda3 {
+        border: none;
+        height: 155px;
+        width: 95%;
+        margin: 10px;
+        border-radius: 10px;
+        background: url(tarot.jpg);
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
+        
+      }
+      
+      #borda4 {
+        border: none;
+        height: 170px;
+        width: 95%;
+        margin: 10px;
+        border-radius: 10px;
+        background: url(net.jpg);
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
+        
+      }
+      
+      #borda5 {
+        border: none;
+        height: 150px;
+        width: 95%;
+        margin: 10px;
+        border-radius: 10px;
+        background: url(cruz.jpg);
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
+        
+      }
+      
+      #borda6 {
+        border: none;
+        height: 170px;
+        width: 95%;
+        margin: 10px;
+        border-radius: 10px;
+        background: url(si.jpg);
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
+        
+      }
+      
+      #borda7 {
+        border: none;
+        height: 170px;
+        width: 95%;
+        margin: 10px;
+        border-radius: 10px;
+        background: url(esc.jpg);
+        background-size: 400px 200px;
+        background-repeat: no-repeat;
+        
+      }
+      
+      
+      hr {
+        background-color: #fff;
+        width: 365px;
+        border-radius: 50%;
+      }
+      /*Escondendo os botes */
+      .hide {
+              display:none;
+            }
+            input[type="checkbox"] {
+              display: none;
+            }
+            #btn-a:checked ~ .hide {
+              display: block;
+            }
+            #btn-a:not(:checked) ~ .hide {
+              display: none;
+            }
+            #btn-b:checked ~ .hide {
+              display: block;
+            }
+              #btn-b:not(:checked) ~ .hide {
+              display: none;
+            }
+            #btn-c:checked ~ .hide {
+              display: block;
+            }
+            #btn-c:not(:checked) ~ .hide {
+              display: none;
+            }
+            #btn-d:checked ~ .hide {
+              display: block;
+            }
+            #btn-d:not(:checked) ~ .hide {
+              display: none;
+            }
+            #btn-e:checked ~ .hide {
+              display: block;
+            }
+            #btn-e:not(:checked) ~ .hide {
+              display: none;
+            }
+            #btn-f:checked ~ .hide {
+              display: block;
+            }
+            #btn-f:not(:checked) ~ .hide {
+              display: none;
+            }
+            #btn-g:checked ~ .hide {
+              display: block;
+            }
+            #btn-g:not(:checked) ~ .hide {
+              display: none;
+            }
+            
+            img  {
+              margin: auto;
+              margin-top: 10px;
+              display: block;
+              height: 230px;
+              width: 95%;
+              border-radius: 15px;
+            }
+            
+            h1 {
+              color: #fff;
+              font: 400 30px/1.6 "Source Sans Pro",sans-serif;
+              text-align: center;
+            }
+     
+            p {
+              color: #fff;
+              text-align: center;
+              font: 400 19px/1.6 "Source Sans Pro",sans-serif;
+            }
+     
+            #btn-1, #btn-2 , #btn-3 , #btn-4, #btn-5, #btn-6, #btn-7{
+              height: 70px;
+              width: 95%;
+              background: radial-gradient(circle at 75.57% 35.24%, #76C893 0, #1d8eda 0%, #52B69A 100%);
+              border: none;
+              margin-left: 10px;
+              margin-right: 10px;
+              border-radius: 10px;
+              outline: none;
+            }
+            
+            .area p {
+              margin: 15px;
+              font: 400 20px/1.6 "Source Sans Pro",sans-serif;
+            }
+
+            .area {
+             border: 1px solid #fff ;
+             display: block;
+             margin: 10px;
+             border-radius: 10px;
+            }
+            
+            ul {
+             list-style: none;
+           }
+           
+           a { /*Links menu*/
+            color: white;
+            font: 370 20px/1.6 "Source Sans Pro",sans-serif;
+            text-align: center;
+          }
+        
+          a:hover { /*cor ao tocar nos links*/
+           background:rgba(0, 0, 0, .09);
+           width: 20px;
+          }
+    
+          i {
+            margin-right: 10px;
+          }
+     
+          .swiffy-slider {
+            height: 150px;
+            width: 150px;
+            margin: 40px;
+          }
+      
+          mark {
+            background: radial-gradient(circle at 75.57% 35.24%, #76C893 0, #1d8eda 0%, #52B69A 100%);
+            color: white;
+            border-radius: 15px;
+          }
+      
+          .roda-pe { 
+              text-decoration: none; 
+              color: white; 
+              font-size: 18px; 
+              cursor: pointer; 
+              padding: 5px 10px; 
+              text-align: center; 
+              font-family: "Source Sans Pro",sans-serif;
+              display: block;
+            }
