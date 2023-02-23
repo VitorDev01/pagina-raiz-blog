@@ -19,7 +19,7 @@
       
       img {
         width: 100%;
-        box-shadow: 5px 5px 5px #2a2a2a;
+        box-shadow: 4px 4px 4px #2a2a2a;
       }
       
       #borda2 {
@@ -31,7 +31,7 @@
         background: url(con.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
-        box-shadow: 5px 5px 5px #2a2a2a;
+        box-shadow: 4px 4px 4px #2a2a2a;
         
       }
       
@@ -44,7 +44,7 @@
         background: url(tarot.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
-        box-shadow: 5px 5px 5px #2a2a2a;
+        box-shadow: 4px 4px 4px #2a2a2a;
         
       }
       
@@ -57,7 +57,7 @@
         background: url(net.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
-        box-shadow: 5px 5px 5px #2a2a2a;
+        box-shadow: 4px 4px 4px #2a2a2a;
         
       }
       
@@ -70,7 +70,7 @@
         background: url(cruz.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
-        box-shadow: 5px 5px 5px #2a2a2a;
+        box-shadow: 4px 4px 4px #2a2a2a;
       }
       
       #borda6 {
@@ -82,7 +82,7 @@
         background: url(si.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
-        box-shadow: 5px 5px 5px #2a2a2a;  
+        box-shadow: 4px 4px 4px #2a2a2a;  
       }
       
       #borda7 {
@@ -94,7 +94,7 @@
         background: url(esc.jpg);
         background-size: 400px 200px;
         background-repeat: no-repeat;
-        box-shadow: 5px 5px 5px #2a2a2a;
+        box-shadow: 4px 4px 4px #2a2a2a;
       }
       
       
@@ -172,7 +172,7 @@
      
             p {
               color: #fff;
-              text-align: center;
+              
               font-family: 'Gloock', serif;  
               letter-spacing: 3px;
               font-size: 18px;
@@ -187,7 +187,7 @@
               margin-right: 10px;
               border-radius: 10px;
               outline: none;
-              box-shadow: 5px 5px 5px #2a2a2a;
+              box-shadow: 4px 4px 4px #2a2a2a;
             }
             
             .area p {
@@ -198,7 +198,7 @@
             }
 
             .area {
-             box-shadow: 5px 5px 5px #2a2a2a;
+             box-shadow: 3px 3px 3px #2a2a2a;
              display: block;
              margin: 10px;
              border-radius: 10px;
@@ -257,13 +257,15 @@
           <button id="btn-1">
           <!-- botão pessoa -->
           <label for= "btn-a" >
-            <p><strong><i class="fa fa-user" aria-hidden="true"></i>Sobre Mim</strong></p>
+            <p><strong><i class="fa fa-info" aria-hidden="true"></i>Sobre Mim</strong></p>
           </label>
           </button>
           <div class="hide">
             <div class="area">
-              <p><a href="https://vitordev01.netlify.app/">Mais sobre min</a><br>
-              Neste blog vou estar postando assuntos do meu interesse, em sua maioria conhecimentos que adquiro em cursos que ja fiz ou estou realizando no momento.</p>
+              <p><a href="https://vitordev01.netlify.app/">Mais sobre min</a><br><br>
+              Neste blog vou estar postando assuntos do meu interesse, em sua maioria conhecimentos que adquiro em cursos que ja fiz ou estou realizando no momento.
+              <br><br>
+              Observação: Esta Página Está Disponível Apenas Para Celulares, outras versões em desenvolvimento!</p><br>
              </div>
           </div>
          <br>
@@ -279,7 +281,7 @@
         
           <div class="hide">
             <div class="area">
-           
+           <br>
            <ul id="menu" role="menu">
              <li><a href="https://wa.me/5524992717594?text=Olá+Gostaria+De+Saber+Mais+Sobre+As+Consultas+Online">WhatsApp •  <i class=" fab fa-whatsapp" style="color: white"></i></a></li>
              
@@ -290,6 +292,7 @@
             <li><a href="https://www.facebook.com/profile.php?id=100078322466753">Facebook • <i class="fab fa-facebook"></i></a></li>  
           
             </ul>
+            <br>
   
           </div>
           </div>
@@ -305,9 +308,10 @@
           <hr>
           <div class="hide">
             <div class="area">
-              <p>Disponível Apartir de 01 Janeiro 2023<br><a href="https://vitordev01.github.io/pagina-numerologia/">Veja quais são as influências que estão em grande aspecto em seu ano pessoal segundoa Numerologia e Tarô<br></a>
+              <br>
+              <p>Disponível Apartir de 01 Janeiro 2023<br><br><a href="https://vitordev01.github.io/pagina-numerologia/">Veja quais são as influências que estão em grande aspecto em seu ano pessoal segundoa Numerologia e Tarô<br></a><br><br>
               
-              <mark>#taro #numerologia #anoPessoal</mark></p>
+              <mark>#taro #numerologia #anoPessoal #2023</mark></p><br><br>
              </div>
           </div>
      
@@ -321,9 +325,9 @@
           <hr>
           <div class="hide">
             <div class="area">
-              <p>25 de fevereiro de 2022<br><a href="https://vitordev01.github.io/page-about-internet/">Quando e de onde surgiu? quem esta por trás da crianção da internet? mundialmente presente na vida de todos</a>
-              (Página criada em inglês)<br> • 3 min de leitura <br>
-              <mark>#www #worldWideWeb #internetDeTudo</mark></p>
+              <p>25 de fevereiro de 2022<a href="https://vitordev01.github.io/page-about-internet/"><br><br>Quando e de onde surgiu? quem esta por trás da crianção da internet? mundialmente presente na vida de todos</a>
+              (Página criada em inglês)<br><br> • 3 min de leitura <br><br>
+              <mark>#www #worldWideWeb #internetDeTudo #https://</mark></p><br>
              </div>
           </div>
    
@@ -337,9 +341,9 @@
       
           <div class="hide">
             <div class="area">
-              <p>22 de maio de 2022<br><a href="https://vitordev01.github.io/estudo-religioes/">Estudo sobre as semelhanças entre as principais religiões do mundo</a>
-              <br> • 5 min de leitura <br>
-              <mark>#sincretismo #religiões #espiritualidade</mark></p>
+              <p>22 de maio de 2022<br><a href="https://vitordev01.github.io/estudo-religioes/"><br>Estudo sobre as semelhanças entre as principais religiões do mundo</a>
+              <br><br> • 5 min de leitura <br><br>
+              <mark>#sincretismo #religiões #espiritualidade</mark></p><br>
              </div>
           </div>
           <hr>
@@ -353,9 +357,9 @@
           </button>
           <div class="hide">
             <div class="area">
-              <p>01 de dezembro de 2022<br><a href="https://vitordev01.github.io/pagina-signos-curso/">As principais características dos signos e suas coligações com outros temas</a>
-              <br> • 10 min de leitura <br>
-              <mark>astrologia #individualidade #signos</mark></p>
+              <p>01 de dezembro de 2022<a href="https://vitordev01.github.io/pagina-signos-curso/"><br><br>As principais características dos signos e suas coligações com outros temas</a><br>
+              <br> • 10 min de leitura <br><br>
+              <mark>#astrologia #personalidade #individualidade #signos</mark></p><br>
              </div>
           </div>
           <hr>
@@ -368,9 +372,9 @@
           </button>
           <div class="hide">
             <div class="area">
-              <p>06 de dezembro de 2022<br><a href="https://vitordev01.github.io/pagina-reforma-protestante/">A ligação de Matinho Lutero e seu signo e suas profundas características</a>
-              <br> • 5 min de leitura <br>
-              <mark>signo #personalidade #reformaProtestante</mark></p>
+              <p>06 de dezembro de 2022<br><a href="https://vitordev01.github.io/pagina-reforma-protestante/"><br>A ligação de Matinho Lutero e seu signo e suas profundas características</a><br>
+              <br> • 5 min de leitura <br><br>
+              <mark>signo #personalidade #reformaProtestante</mark></p><br>
              </div>
           </div>
           <hr>
